@@ -151,7 +151,7 @@ public class MainActivity extends AppCompatActivity implements View.OnClickListe
                 }
             }
         }
-        if(count==totalNumberOfMines){
+        if((size==5 && count==5)){
             Toast.makeText(this,"Winner",Toast.LENGTH_LONG).show();
             for (int l = 0; l < size; l++) {
                 for (int m = 0; m < size; m++) {
@@ -159,8 +159,21 @@ public class MainActivity extends AppCompatActivity implements View.OnClickListe
                 }
             }
         }
-        else{
-            return;
+        else if(size ==10 && count ==20){
+            Toast.makeText(this,"Winner",Toast.LENGTH_LONG).show();
+            for (int l = 0; l < size; l++) {
+                for (int m = 0; m < size; m++) {
+                    board[l][m].setEnabled(false);
+                }
+            }
+        }
+        else if(size==10 && count==30){
+            Toast.makeText(this,"Winner",Toast.LENGTH_LONG).show();
+            for (int l = 0; l < size; l++) {
+                for (int m = 0; m < size; m++) {
+                    board[l][m].setEnabled(false);
+                }
+            }
         }
     }
 
