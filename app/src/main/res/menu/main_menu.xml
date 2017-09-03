@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+
+    <item android:title="Reset" android:id="@+id/reset" android:orderInCategory="100"/>
+    <item android:title="Easy" android:id="@+id/easy"/>
+    <item android:title="Hard" android:id="@+id/hard" android:orderInCategory="10"/>
+    <item android:id="@+id/medium" android:title="Medium"/>
+</menu>

@@ -1,0 +1,4 @@
+<resources>
+    <string name="app_name">Minesweeper</string>
+    <string name="title_activity_start_">Start_Activity</string>
+</resources>
